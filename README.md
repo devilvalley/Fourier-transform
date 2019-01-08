@@ -1,13 +1,9 @@
 # Fourier-transform
 微信小程序,傅里叶变换
-
-
-
-
-
-
-
-
+=====
+本项目原本是想依照3Blue1Brown的视频演示做一个小程序展示的，后来因为算法的问题导致只实现了视频前一半展示的内容
+https://www.bilibili.com/video/av19141078
 
 微信中扫描以下小程序码即可加载
+------------
 ![Image text](https://raw.githubusercontent.com/devilvalley/Fourier-transform/master/gh_7174ab4acd3d_258.jpg)
