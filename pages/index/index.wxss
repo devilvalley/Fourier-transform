@@ -1,0 +1,21 @@
+/**index.wxss**/
+.shibo {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+.canvas {
+  width: 300px;
+  height: 100px;
+  background-color:#000;
+}
+.usermotto {
+  
+  width: 100%;
+  margin-top: 20px;
+}
+slider{
+  
+}

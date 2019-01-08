@@ -1,0 +1,24 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "傅里叶变换展示",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "合并波形"
+        }
+      ]
+  }
+}

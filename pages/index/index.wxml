@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="shibo">
+    <canvas canvas-id="canvas" class="canvas" ></canvas>
+  </view>
+  <view class="usermotto">
+     <text class="section__title">频率 /hz</text>
+      <view class="body-view">
+    <slider bindchanging="slider1change" bindchange='slider1change' min="1" max="5" step='0.1' block-color='blue' show-value/>
+  </view></view>
+  <view class="shibo">
+    <canvas canvas-id="canvas1" class="canvas" ></canvas>
+  </view>
+  <view class="usermotto">
+     <text class="section__title">频率 /hz</text>
+      <view class="body-view">
+    <slider bindchanging="slider2change" bindchange='slider2change' min="1" max="5" step='0.1' block-color='blue' show-value/>
+  </view></view>
+</view>

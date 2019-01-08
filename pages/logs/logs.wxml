@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view class="container">
+    <view class="shibo">
+    <canvas canvas-id="canvas" class="canvas" ></canvas>
+    <text>合并波形</text>
+  </view>
+   <view class="bianhuang">
+    <canvas canvas-id="canvas2" class="canvas2" ></canvas>
+  </view>
+  <view><text>{{pj/4}}cycles/second</text></view>
+  <view><text space='emsp'>   将波缠绕在圆上，红点为其质心，当图像缠绕频率等于合成的其中一个波形时，质心偏移达到最大</text></view>
+</view>
